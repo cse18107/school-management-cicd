@@ -21,7 +21,7 @@ app.use('/api/students', studentRoutes);
 
 app.get('/', (req, res) => {
     // console.log("Fetching")
-    return res.status(200).json({msg: "ok"});
+    return res.status(200).json({msg: "ok with changes"});
 })
 
 // Start the server
