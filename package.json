@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest",
     "start": "nodemon server.js",
     "build": "babel src -d dist"
   },
