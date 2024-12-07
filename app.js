@@ -24,7 +24,5 @@ app.get('/', (req, res) => {
     return res.status(200).json({msg: "ok with changes"});
 })
 
-// Start the server
-
 
 export default app;
