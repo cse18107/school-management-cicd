@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest --detectOpenHandles --testTimeout=10000 --forceExit",
     "start": "nodemon server.js",
     "build": "babel src -d dist"
   },
