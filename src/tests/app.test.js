@@ -10,12 +10,3 @@ describe("sample test endpoint", () => {
         expect(response.status).toBe(200);
     });
 });
-
-beforeAll(done => {
-    done()
-  })
-  
-  afterAll(done => {
-    // Closing the DB connection allows Jest to exit successfully.
-    done()
-  })
