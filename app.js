@@ -20,8 +20,8 @@ app.use('/api/teachers', teacherRoutes);
 app.use('/api/students', studentRoutes);
 
 app.get('/', (req, res) => {
-    console.log("Fetching")
-    res.status(200).json({msg: "ok"});
+    // console.log("Fetching")
+    return res.status(200).json({msg: "ok"});
 })
 
 // Start the server
